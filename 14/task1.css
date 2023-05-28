@@ -1,0 +1,14 @@
+h1 {
+    color: blueviolet;
+    font-size: 40pt;
+    transition: color 2s ease, padding-left 2s ease, transform 2s ease;
+    width: 400px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+h1:hover {
+    color: brown;
+    padding-left: 100px;
+    transform: scale(1.5) rotate(50deg);
+}
